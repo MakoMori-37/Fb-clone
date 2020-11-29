@@ -1,0 +1,80 @@
+.leftbar {
+  flex: 0.25;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.leftbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.leftbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.leftbar::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.leftbar:hover::-webkit-scrollbar-thumb {
+  background: rgb(206, 204, 204);
+}
+
+.leftbar > h3 {
+  color: gray;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+}
+
+.leftbar__dropdown {
+  width: 96%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.leftbar__dropdown:hover {
+  background-color: #d3d8e4;
+}
+
+.leftbar__dropdown > .MuiSvgIcon-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #d3d8e4;
+  margin-right: 8px;
+  cursor: pointer;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.underline {
+  border-bottom: 1px solid rgb(185, 183, 183);
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.leftbar__footer{
+    color: gray;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 18px;
+    margin-bottom: 24%;
+}
+

@@ -1,0 +1,272 @@
+.post{
+    max-width: 100%;
+    height: 610px;
+    border-radius: 12px;
+    background-color: white;
+    margin-top: 10px;
+  
+
+    border-left: 1px solid rgb(218, 214, 214);
+    border-bottom: 1px solid rgb(218, 214, 214);
+    border-right: 1px solid rgb(218, 214, 214);
+}
+
+.post_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.postheaad__image{
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.postheaad__image > img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+.posthead__name{
+    margin-left: 12px;
+    font-weight: 550;
+}
+
+.posthead__name > p {
+    cursor: pointer;
+}
+
+.priva{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.priva > span{
+    color: gray;
+    font-size: 12px;
+    font-weight: 500 !important;
+  
+    
+
+}
+
+.priva > .MuiSvgIcon-root{
+    font-size: 16px;
+    color: gray;
+    margin-left: 8px;
+    cursor: pointer;
+
+}
+
+.posthead__i{
+    display: flex;
+    align-items: center;
+}
+
+.posthead__i > .MuiSvgIcon-root{
+    color: gray;
+    margin-right: 12px;
+    cursor: pointer;
+
+}
+
+.caption{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 0px 16px;
+    color: rgb(39, 39, 39);
+   
+    height: 40px;
+}
+
+.post__pic{
+    height: 390px !important;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.post__pic > img {
+    max-height: 100%;
+    cursor: pointer;
+    max-width: 100%;
+    object-fit: fill;
+}
+
+.post__bot{
+    color: rgb(112, 111, 111);
+}
+
+.like{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.emoticon{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.emoticon > img{
+    height: 20px;
+    width: 20px;
+    margin-right: -2px;
+    cursor: pointer;
+}
+
+.emoticon > span{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.emoticon > span:hover{
+    text-decoration: underline;
+}
+
+.commentsha{
+    display: flex;
+    align-items: center;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.comment:hover{
+    text-decoration: underline;
+
+}
+
+.share{
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+
+.share:hover{
+    text-decoration: underline;
+
+}
+
+.post__underline{
+    width: 96%;
+    margin: 8px auto;
+    border-bottom: 1px solid rgb(182, 178, 178);
+}
+
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    justify-content: center;
+}
+
+.butlike{
+    margin-left: 8px;
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butlike > span{
+    margin-left: 5px;
+}
+
+.butlike:hover{
+    background-color: #e6e9e9;
+
+}
+
+.butcomment{
+    flex: 0.3;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.butcomment > span{
+    margin-left: 5px;
+}
+
+.butcomment:hover{
+    background-color: #e6e9e9;
+
+}
+
+.butshare{
+    flex: 0.3;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center !important ;
+    cursor: pointer;
+
+}
+
+.butshare > span{
+    margin-left: 5px;
+}
+
+.butshare:hover{
+    background-color: #e6e9e9;
+
+}
+
+.butprofile{
+    flex: 0.1;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-right: 8px;
+
+}
+
+.butprofile:hover{
+    background-color: #e6e9e9;
+
+}
+
+.butprofile > img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}

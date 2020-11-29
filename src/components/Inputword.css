@@ -1,0 +1,134 @@
+.inputword{
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 12px;
+    border-left: 1px solid rgb(218, 214, 214);
+    border-bottom: 1px solid rgb(218, 214, 214);
+    border-right: 1px solid rgb(218, 214, 214);
+
+
+
+}
+
+.top_input{
+    display: flex;
+    align-items: center !important ;
+   
+}
+
+.top_input > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-top: 8px;
+    border:  0.5px solid rgb(122, 122, 122);
+    
+}
+
+.con__input{
+    width: 85%;
+    height: 40px;
+    border-radius: 999px;
+    background-color: #eaecf0;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.con__input > input{
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    font-size: 14px;
+    width: 85%;
+}
+
+.con__input > input:focus{
+    outline: none;
+    
+}
+
+.bot_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bot_input  p {
+    color: rgb(82, 80, 80);
+}
+
+.live{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+.live:hover{
+    
+    background-color: #eaecf0;
+}
+
+.live > .MuiSvgIcon-root{
+    color: red;
+    margin-right: 10px;
+   font-size: 24px;
+
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.gallery:hover{
+    
+    background-color: #eaecf0;
+}
+
+.gallery > .MuiSvgIcon-root{
+    color: green;
+    margin-right: 10px;
+
+   font-size: 24px;
+
+}
+
+
+.emote{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.emote:hover{
+    
+    background-color: #eaecf0;
+}
+
+.emote > .MuiSvgIcon-root{
+    color: orange;
+   font-size: 24px;
+    margin-right: 10px;
+}

@@ -1,0 +1,226 @@
+.rightbar {
+  flex: 0.25;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+
+}
+
+.rightbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.rightbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.rightbar::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.rightbar:hover::-webkit-scrollbar-thumb {
+  background: rgb(206, 204, 204);
+}
+
+.mypagehead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(128, 125, 125);
+  margin-top: 20px;
+}
+
+.mypagehead > .MuiSvgIcon-root {
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.mypagepic {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  height: 40px;
+  width: 99%;
+  border-radius: 8px;
+}
+
+.mypagepic:hover {
+  background-color: rgb(215, 221, 221);
+}
+
+.mypagepic > p{
+  font-size: 16px !important;
+}
+
+.mypagepic > img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.mypage__message {
+  display: flex;
+  align-items: center;
+  color: gray;
+  height: 30px;
+  width: 99%;
+  border-radius: 8px;
+  margin-top: 12px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.mypage__message:hover {
+  background-color: rgb(215, 221, 221);
+}
+
+.mypage__noti {
+  display: flex;
+  align-items: center;
+  color: rgb(112, 111, 111);
+
+  height: 30px;
+  width: 99%;
+  margin-top: 2px;
+  border-radius: 8px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.mypage__noti:hover {
+  background-color: rgb(215, 221, 221);
+}
+
+.mypage__promoyr {
+  display: flex;
+  align-items: center;
+  color: rgb(112, 111, 111);
+
+  height: 30px;
+  width: 99%;
+  border-radius: 8px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.mypage__promoyr:hover {
+  background-color: rgb(215, 221, 221);
+}
+
+.mypage__container span {
+  margin-left: 8px;
+  font-size: 13.5px;
+  color: rgb(112, 111, 111);
+  
+}
+
+.mypage__container {
+  margin-left: 15px;
+}
+
+.birthday {
+  color: rgb(128, 125, 125);
+
+
+}
+
+.name__birth {
+  color: black !important;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  height: 60px;
+  width: 99%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.name__birth:hover {
+  background-color: rgb(215, 221, 221);
+}
+
+.name__birth > img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.mess__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.mess__headicon {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+
+.mess__headicon > .MuiSvgIcon-root {
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+
+.createp{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 1px 1px 1px 1px rgb(172, 170, 170);
+}
+
+.spc{
+  position: fixed;
+  right: 110px;
+  bottom: 60px;
+  opacity: 0;
+  transition: 0.1s ;
+  border-radius: 6px;
+  width: 90px;
+  height: 30px;
+  background-color: rgb(56, 55, 55);
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  justify-content: center;
+}
+
+.createp > .MuiSvgIcon-root{
+  color: black;
+}
+
+.createp:hover{
+  background-color: #dddedf;
+  
+}
+
+.createp:hover > span{
+  opacity: 1;
+  transition-delay:0.7s;
+}
+
+.msse{
+  margin-bottom: 20%;
+  position: relative;
+}

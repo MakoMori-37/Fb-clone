@@ -1,0 +1,215 @@
+.postmodal {
+  height: 420px;
+  width: 500px;
+  background-color:white;
+  z-index: 999;
+  position: absolute;
+  top: 150px;
+  left: 510px;
+  border-radius: 6px;
+}
+
+.hmodal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 5px;
+  position: relative;
+}
+
+.closebut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #dfe3ee;
+  cursor: pointer;
+}
+
+.closebut:hover{
+  background-color: #c8ccd6;
+
+}
+
+.underlinemodal {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid rgb(201, 199, 199);
+}
+
+.modalavatar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    
+}
+
+.modalpic{
+    display: flex;
+    align-items: center;
+}
+
+.modalpic > img{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(139, 136, 136);
+    margin-left: 14px;
+    margin-right: 14px;
+
+}
+
+.modalname{
+    display: block;
+    align-items: center;
+    font-weight: 500;
+}
+
+.privacy{
+    display: flex;
+    align-items: center;
+    height: 23px;
+    width: 80px;
+    border-radius: 4px;
+    background-color: #c8ccd6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.privacy > .MuiSvgIcon-root{
+    font-size: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.textarea{
+    width: 100%;
+    height: 180px;
+}
+
+.textarea > textarea{
+    font-size: 20px;
+    width: 95%;
+    height: 170px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+    background-color: transparent;
+
+}
+
+.textarea > textarea:focus{
+    outline: none;
+}
+
+.modaltools{
+    display: flex;
+    align-items: center;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 55px;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 4px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.modaltools > p{
+    cursor: pointer;
+    font-weight: 600px;
+    margin-left: 20px;
+}
+
+.modalicon{
+    display: flex;
+    align-items: center;
+}
+
+.modalimage > .MuiSvgIcon-root{
+    color: green;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+.modaltag{
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+.modalemo > .MuiSvgIcon-root{
+    color: orange;
+    margin-right: 15px;
+
+    cursor: pointer;
+}
+
+.modalloca > .MuiSvgIcon-root{
+    color: rgb(247, 114, 26);
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+.modalvid > .MuiSvgIcon-root{
+    color: rgb(248, 46, 19);
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+.modaldot > .MuiSvgIcon-root{
+    color: rgb(88, 87, 86);
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.modalbut{
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.modalbut > button{
+    width: 100%;
+    background-color: rgb(36, 73, 240);
+    height: 100%;
+    border-radius: 4px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.modalbut > button:focus{
+    outline: none;
+}
+
+.postmodal__container{
+    flex: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(53, 54, 53, 0.7);
+    z-index: 999;
+    position: fixed;
+}

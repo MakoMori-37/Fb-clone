@@ -1,0 +1,30 @@
+.leftitem{
+    display: flex;
+    align-items: center;
+   
+    height: 50px;
+    width: 98%;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: 0.02s ease-in-out;
+    cursor: pointer;
+}
+
+.leftitem > p{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.leftitem > img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1 solid rgb(44, 44, 44);
+    margin-left: 14px;
+    margin-right: 14px;
+    object-fit: cover;
+}
+
+.leftitem:hover{
+    background-color: #d3d8e4;
+}

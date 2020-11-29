@@ -1,0 +1,150 @@
+.sidemenu{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+
+    border-radius: 4px;
+    border: 1px solid rgb(218, 210, 210) ;
+}
+
+.underlineside{
+    border-top: 1px solid rgb(201, 196, 196);
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sidemenu__head{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.sidemenu__head:hover{
+    background-color: rgb(247, 243, 243);
+}
+
+.sidemenu__head > img{
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(168, 164, 164) ; 
+}
+
+.sidemenuh__name{
+    display: inline;
+    align-items: center;
+}
+
+.sidemenuh__name > p{
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.sidemenuh__name > span{
+    font-size: 14px;
+    color: gray;
+}
+
+.sidemunu__comment{
+    display: flex;
+    align-items: center;
+    padding: 14px 8px;
+    cursor: pointer;
+    
+}
+
+.sidemunu__comment:hover{
+    background-color: rgb(247, 243, 243);
+
+}
+
+.sidemunec__icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(204, 207, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.sidemunec__com{
+    display: block;
+    align-items: center;
+}
+
+.sidemunec__com > p{
+    font-size: 16px;
+    
+}
+
+.sidemunec__com > span{
+    font-size: 14px;
+    color: gray;
+}
+
+.sidemunu__item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 8px;
+
+}
+
+.sidemunu__item:hover{
+    background-color: rgb(247, 243, 243);
+}
+
+.sidemenuitem__item{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(204, 207, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.sidemenuitem__itemm{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(204, 207, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    
+}
+
+.tx{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.sidemenuitem__i{
+    display: flex;
+    align-items: center;
+    position: absolute;
+   right: 8px;
+   
+
+}
+
+.sidemenu__footer{
+    font-size: 13px;
+    color: gray;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}

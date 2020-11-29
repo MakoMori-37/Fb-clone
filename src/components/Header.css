@@ -1,0 +1,482 @@
+.header{
+    display: flex;
+    height: 60px;
+    width: 100vw;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(182, 181, 181) ;
+    
+}
+
+
+
+.searchbar{
+    display: flex;
+    flex: 0.3;
+    position: relative;
+    z-index: 999;
+}
+
+.searchbar > img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   z-index: -5;
+    margin-left: 15px;
+    cursor: pointer;
+    object-fit: cover;
+
+}
+
+.search__input{ 
+    display: flex;
+    align-items: center !important ;
+    margin-left: 10px;
+    width: 270px;
+    color: gray;
+    background-color: 	#f7f7f7;
+    border-radius: 999px;
+    padding: 7px 7px;
+    font-size: 22px;
+}
+
+.search__input > input{
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    width: 220px;
+
+   
+}
+.search__input :focus{
+    outline: none;
+}
+
+
+.icon__navi{
+    display: flex;
+    height: 100%;
+    flex: 0.4;
+}
+
+.icon__navi  span{
+    font-size: 13px;
+}
+
+.icon__navi .MuiSvgIcon-root{
+    color: rgb(100, 100, 100);
+    font-size: 30px;
+    font-weight: 100;
+    cursor: pointer;
+   
+
+}
+
+.user__setting{
+    display: flex;
+    flex: 0.3;
+    align-items: center;  
+}
+
+.username{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 95px;
+
+}
+
+.username:hover{
+    width: 95px;
+    height: 40px;
+    border-radius: 999px;
+    background-color: #dfe3ee;
+
+}
+.username > img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+    object-fit: cover;
+
+}
+
+.plus{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dfe3ee;
+    margin-right: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.plusspan{
+    position: absolute;
+    bottom: -38px;
+    left: -4px;
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    opacity: 0;
+    transition: 0.3s ;
+    font-size: 13px;
+
+}
+
+.plus:hover{
+    background-color: #d6dae4;
+}
+
+.plus:hover > .plusspan{
+    opacity: 1;
+}
+
+
+.mess{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dfe3ee;
+    cursor: pointer;
+    position: relative;
+    margin-right: 8px;
+
+}
+
+.messspanee{
+    position: absolute;
+    bottom: -40px;
+    left: -18px;
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    opacity: 0;
+    transition: 0.3s ;
+    font-size: 13px;
+
+}
+
+.mess:hover{
+    background-color: #d6dae4;
+}
+
+.mess:hover > .messspanee{
+    opacity: 1;
+}
+
+.noti{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dfe3ee;
+    cursor: pointer;
+    position: relative;
+    margin-right: 8px;
+
+}
+
+.notispan{
+    position: absolute;
+    bottom: -40px;
+    left: -18px;
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    opacity: 0;
+    transition: 0.3s ;
+    font-size: 13px;
+
+}
+
+.noti:hover{
+    background-color: #d6dae4;
+}
+
+.noti:hover > .notispan{
+    opacity: 1;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dfe3ee;
+    cursor: pointer;
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropdown:hover{
+    background-color: #d6dae4;
+}
+
+
+.h__home{
+    flex: 0.18;
+    margin-top: 2px;
+    width: 80%;
+    height: 90%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2.2px solid rgb(28, 121, 242);
+    
+}
+
+.h__home > .MuiSvgIcon-root{
+   
+    color: rgb(28, 121, 242);
+}
+
+.homespan{
+    position: absolute;
+    bottom: -40px;
+    left: 16px;
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    opacity: 0;
+    transition: 0.3s ;
+
+   
+}
+
+
+.h__home:hover > .homespan{
+    opacity: 1;
+    
+}
+
+.h__watch{
+   
+    margin-top: 2px;
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.2;
+}
+
+.watchspan{
+    position: absolute;
+    bottom: -38px;
+    left: 22px;
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    opacity: 0;
+    transition: 0.3s ;
+
+   
+}
+
+.h__watch:hover{
+    background-color: #ededee;
+
+}
+
+.h__watch:hover > .watchspan{
+    opacity: 1;
+    
+}
+
+.h__market{
+    
+    margin-top: 2px;
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.2;
+}
+
+.marketspan{
+    position: absolute;
+    bottom: -38px;
+    left: 10px;
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    opacity: 0;
+    transition: 0.3s ;
+
+   
+}
+
+.h__market:hover{
+    background-color: #ededee;
+
+}
+
+.h__market:hover > .marketspan{
+    opacity: 1;
+    
+}
+
+.h__group{
+    cursor: pointer;
+   
+    margin-top: 2px;
+    width: 90%;
+    height: 90%;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.2;
+}
+
+.groupspan{
+    position: absolute;
+    bottom: -38px;
+    left: 22px;
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    opacity: 0;
+    transition: 0.3s ;
+
+   
+}
+
+.h__group:hover{
+    background-color: #ededee;
+
+}
+
+.h__group:hover > .groupspan{
+    opacity: 1;
+    
+}
+
+.h__game{
+    margin-top: 2px;
+    width: 90%;
+    height: 90%;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.2;
+    cursor: pointer;
+
+}
+
+.gamespan{
+    position: absolute;
+    bottom: -38px;
+    left: 22px;
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    opacity: 0;
+    transition: 0.3s ;
+
+   
+}
+
+.h__game:hover{
+    background-color: #ededee;
+
+}
+
+.h__game:hover > .gamespan{
+    opacity: 1;
+    
+}
+
+.ssmenu{
+    position: absolute;
+    top: 46px;
+    right: 0px ;
+    z-index: 999;
+    
+}
+
+/* .sbar__ter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+} */

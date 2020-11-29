@@ -1,0 +1,60 @@
+.hostpic > img {
+    height: 140px;
+    width: 129px;
+    object-fit: cover;
+    border-radius: 12px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+.hostpicstory :hover{
+    transform: scale(1.01);
+}
+
+.hostpic{
+    position: relative;
+}
+
+.hostpicstory{
+    border-radius: 12px;
+    
+    margin-left: 8px;
+    width: 130px;
+    height: 180px;
+    position: relative;
+    margin-left: 8px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+.hostname{
+    text-align: center !important;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+}
+
+.hostname > p{
+    color: black;
+    
+}
+
+.hosticon{
+    position: absolute;
+    bottom: 27px;
+    left: 50px;
+    background-color: rgb(253, 251, 251);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hosticon > .MuiSvgIcon-root{
+    color: rgb(28, 121, 242);
+    font-size: 32px;
+}
